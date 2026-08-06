@@ -71,6 +71,15 @@ function generateLetters(count, lang) {
   return result.join('');
 }
 
+function generateNumbersLetters(count) {
+  const chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
+  let result = [];
+  for (let i = 0; i < count; i++) {
+    result.push(chars[Math.floor(Math.random() * chars.length)]);
+  }
+  return result.join('');
+}
+
 generateBtn.addEventListener("click", () => {
   const type = typeSelect.value;
   const lang = languageSelect.value;
@@ -80,6 +89,8 @@ generateBtn.addEventListener("click", () => {
     output.value = generateWords(count, lang);
   } else if (type === "letters") {
     output.value = generateLetters(count, lang);
+  } else if (type === "numbers-letters") {
+    output.value = generateNumbersLetters(count);
   } else {
     output.value = generateParagraphs(count, lang);
   }
