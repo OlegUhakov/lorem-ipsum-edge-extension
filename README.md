@@ -2,11 +2,11 @@
 
 # Simple Lorem Ipsum Generator — Edge Extension
 
-A lightweight browser extension that generates Lorem Ipsum placeholder text directly from your toolbar.
+A lightweight browser extension that generates Lorem Ipsum placeholder text directly from your toolbar. No servers, no tracking — everything runs locally in your browser.
 
 ## Features
 
-- **Words, Paragraphs, or Letters** — three generation modes
+- **Words, Paragraphs, Letters, or Numbers+Letters** — four generation modes
 - **Language Selection** — choose between Latin (LT) or English (EN)
 - **Adjustable Count** — slider from 1 to 200
 - **Real-time Counter** — live letters, words, and paragraphs stats
@@ -26,7 +26,7 @@ A lightweight browser extension that generates Lorem Ipsum placeholder text dire
 
 1. Click the extension icon in the toolbar
 2. Choose **Lang**: LT (Latin) or EN (English)
-3. Choose **Type**: Words, Paragraphs, or Letters
+3. Choose **Type**: Words, Paragraphs, Letters, or Numbers+Letters
 4. Adjust the **Count** slider (1–200)
 5. Hit **Generate** to produce text
 6. Check letters, words, and paragraph count at the bottom
@@ -45,7 +45,7 @@ A lightweight browser extension that generates Lorem Ipsum placeholder text dire
 
 ## Version
 
-**1.40**
+**1.50**
 
 ## Browser Compatibility
 
